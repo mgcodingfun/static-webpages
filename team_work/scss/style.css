@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.nav {
+  width: 100%;
+  height: 12vh;
+}
+
+.nav__container {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav h1 {
+  font-size: 1.5rem;
+  color: #363636;
+}
+
+.nav__menus {
+  margin-left: 4rem;
+}
+
+.nav__menus .active {
+  color: #000;
+}
+
+.nav__menus a {
+  padding: 0rem 2rem;
+  color: #696767;
+  text-decoration: none;
+  font-weight: 500;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.nav__menus a:hover {
+  color: #000;
+  padding-bottom: 0.8rem;
+  border-bottom: 3px solid #7c00c3;
+}
+
+.main__container {
+  width: 90%;
+  margin: 0 auto;
+  height: 88vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main__container .left__container,
+.main__container .right__container {
+  padding: 4rem 0;
+  background-color: #fff;
+}
+
+.main__container .left__container {
+  width: 40%;
+}
+
+.main__container .left__container input {
+  width: 150px;
+  border: none;
+  border-bottom: 2.5px solid #9e9e9e;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  outline: none;
+  padding-bottom: 0.4rem;
+}
+
+.main__container .left__container h1 {
+  color: #363636;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.main__container .left__container p {
+  color: #888787;
+  margin-top: 2rem;
+}
+
+.main__container .left__container button {
+  background: #3d028b;
+  color: #fff;
+  padding: 0.6rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  -webkit-box-shadow: 5px 5px 20px rgba(61, 2, 139, 0.609);
+          box-shadow: 5px 5px 20px rgba(61, 2, 139, 0.609);
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  margin-top: 2rem;
+}
+
+.main__container .left__container button:hover {
+  background: #2e0169;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  cursor: pointer;
+}
+
+.main__container .right__container {
+  width: 60%;
+  padding: 0 5rem;
+}
+
+.main__container .right__container img {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
